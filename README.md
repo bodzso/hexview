@@ -2,9 +2,7 @@
 A simple and short hex viewer written in C
 
 # Usage:
-```
-hexview <file source> [# bytes to display max 255 bytes]
-```
+`hexview <file source> [# bytes to display max 255 bytes]`
 
 # Example output:
 ```
