@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
 {
     int n = (argc == 3) ? atoi(argv[2]) : 15;
     if(argc < 2 || n > 255 || n < 1){
-        printf("Usage: hexview <file source> [# bytes to display max 255 bytes]");
+        printf("Usage: hexview <file source> [# bytes to display max 255 bytes]\n");
         exit(1);
     }
 
